@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Sağlığı ve Güvenliği Projesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-shield-alt logo-icon"></i>
+                    <span class="logo-text">İSG Sistemi</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#about">Proje Hakkında</a></li>
+                    <li><a href="#team">Ekibimiz</a></li>
+                    <li><a href="#technologies">Teknolojiler</a></li>
+                    <li><a href="#future-plans">Gelecek Planları</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#sdg">SKH</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">İş Sağlığı ve Güvenliği</span>
+                    <br>Yönetim Sistemi
+                </h1>
+                <p class="hero-description">
+                    Çalışan güvenliğini ön planda tutan, modern teknolojilerle desteklenen 
+                    kapsamlı iş sağlığı ve güvenliği çözümümüz ile işyerinizi daha güvenli hale getirin.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#dashboard" class="btn-primary">Dashboard'u İncele</a>
+                    <a href="#about" class="btn-secondary">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="safety-icons">
+                    <div class="icon-circle">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <div class="icon-circle">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="icon-circle">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="icon-circle">
+                        <i class="fas fa-fire-extinguisher"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projenin Amacı</h2>
+                <p class="section-subtitle">İş sağlığı ve güvenliği standartlarını yükseltmek için geliştirilen kapsamlı çözümümüz</p>
+            </div>
+            <div class="about-content">
+                <div class="project-description">
+                    <p class="main-description">
+                        Bu projenin amacı, <strong>fabrikalar ve iş yerlerinde çalışanların güvenliğini artırmaya yardımcı olacak</strong> 
+                        pratik ve kullanılabilir bir destek sistemi sunmaktır. Kamera akışlarını gerçek zamanlı olarak izleyip; 
+                        <em>kimlerin orada olduğunu</em>, <em>oturuyor mu ayakta mı gibi poz durumlarını</em> ve 
+                        <em>koruyucu ekipman (baret/yelek) kullanımını</em> görsel olarak tespit ederek potansiyel riskleri anında ortaya çıkarır.
+                    </p>
+                    <p class="secondary-description">
+                        Sistem, riskli veya eksik ekipman tespiti gibi <span class="unsafe-text">"unsafe"</span> durumlarda yetkili personele 
+                        uyarı göndererek müdahaleyi hızlandırır; bu sayede küçük hatalar büyümeden önlenebilir. Ayrıca yaşanan olayların 
+                        kısa görüntü kayıtları ve tespit logları tutulur; bu materyaller <strong>denetim ve iş güvenliği eğitimlerinde</strong> kullanılabilir.
+                    </p>
+                    <p class="tertiary-description">
+                        Kurulum ve kullanımı kolay olacak şekilde tasarlandı; mevcut kamera altyapılarına entegre edilebilir ve 
+                        kurum gizliliğine saygı gösterecek şekilde <em>(ör. kurum içi işlem)</em> çalıştırılabilir.
+                    </p>
+                </div>
+                <div class="integration-info">
+                    <div class="integration-card">
+                        <div class="integration-icon">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <div class="integration-text">
+                            <h4>Kolay Entegrasyon</h4>
+                            <p>Üretim sahalarının mevcut kamera altyapılarına kolayca entegre edilebilir ve gizlilik ile veri güvenliği ilkeleri göz önünde bulundurularak uygulanabilir.</p>
+                        </div>
+                    </div>
+                    <div class="integration-card">
+                        <div class="integration-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="integration-text">
+                            <h4>Güvenli İşleme</h4>
+                            <p>İsteğe bağlı uçta işleme ve kurum içi çalıştırma seçenekleri ile veri güvenliği maksimum seviyede korunur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proje Ekibimiz</h2>
+                <p class="section-subtitle">İş sağlığı ve güvenliği alanında uzman ekibimiz</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://via.placeholder.com/200x200/4F46E5/FFFFFF?text=EA" alt="Eren Ata">
+                    </div>
+                    <div class="member-info">
+                        <h3>Eren Ata</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/eren-ata-3287991a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:erena6466@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://via.placeholder.com/200x200/059669/FFFFFF?text=YD" alt="Yunus Dermencioğlu">
+                    </div>
+                    <div class="member-info">
+                        <h3>Yunus Dermencioğlu</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/yunusdermencioglu" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:yunusdermencioglu@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://via.placeholder.com/200x200/DC2626/FFFFFF?text=GC" alt="Gülsüm Ceylan">
+                    </div>
+                    <div class="member-info">
+                        <h3>Gülsüm Ceylan</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gülsüm-ceylan-8703292b1" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:gulsumcey11an@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Teknoloji Detayları ve Demo</h2>
+                <p class="section-subtitle">Projenin çekirdek bileşenleri ve veri/işlem akışının adım adım açıklaması</p>
+            </div>
+            <div class="tech-overview">
+                <div class="tech-models">
+                    <h3>Kullanılan Modeller</h3>
+                    <div class="model-grid">
+                        <div class="model-item">
+                            <h4>Baret & Reflektif Yelek Tespiti</h4>
+                            <p>Kendi etiketli veri setlerimiz ile <strong>YOLOv8</strong> kullanılarak eğitildi.</p>
+                        </div>
+                        <div class="model-item">
+                            <h4>İnsan Tespiti</h4>
+                            <p>Yine kendi veri setlerimiz ile <strong>YOLOv8</strong> tabanlı model. (Genel alan taraması için ana algılayıcı)</p>
+                        </div>
+                        <div class="model-item">
+                            <h4>Oturuyor/Ayakta Sınıflandırması</h4>
+                            <p>Hazır model <strong>yolo-pose</strong> ile keypoint (vücut eklem) tespiti yapılarak gerçekleştiriliyor; keypoint'lerden çıkarılan geometrik kurallarla (ör. kalça/diz/omuz açıları ve gövde eğimi) oturma/ayakta kararı veriliyor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-demo">
+                        <img src="eren-baret-yelek-test.gif" alt="Eren Baret ve Yelek Tespiti Demo">
+                    </div>
+                    <h3>Baret ve Yelek Tespiti</h3>
+                    <p>Görüntü akışında baret ve reflektif yelek kullanımı otomatik kontrol ediliyor; eksik ekipman tespit edildiğinde sistem anında uyarı vererek güvenlik ihlallerini önlüyor.</p>
+                    <div class="tech-features">
+                        <span>✓ Otomatik Kontrol</span>
+                        <span>✓ Eksiklik Tespiti</span>
+                        <span>✓ Anında Uyarı</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-demo">
+                        <img src="yunus-baret-yelek-tespiti.gif" alt="Yunus Baret ve Yelek Tespiti Demo">
+                    </div>
+                    <h3>Güvenlik Ekipmanı Kontrolü</h3>
+                    <p>Kamera akışı anlık olarak analiz ediliyor; model koruyucu ekipmanı algılayıp bounding box ile vurguluyor. Tespit skorları kayıt altına alınıyor ve raporlama için saklanıyor.</p>
+                    <div class="tech-features">
+                        <span>✓ Anlık Analiz</span>
+                        <span>✓ Bounding Box Vurgulama</span>
+                        <span>✓ Skor Kayıt Sistemi</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-demo">
+                        <img src="yunus-insan.gif" alt="Yunus İnsan Tespiti Demo">
+                    </div>
+                    <h3>İnsan Varlığı Tespiti</h3>
+                    <p>İnsan tespiti ve oturuyor/ayakta sınıflandırması eş zamanlı çalışıyor; sistem anlık poz bilgisiyle riskli durumları belirleyip yetkiliye uyarı gönderiyor.</p>
+                    <div class="tech-features">
+                        <span>✓ Eş Zamanlı Çalışma</span>
+                        <span>✓ Poz Sınıflandırması</span>
+                        <span>✓ Anlık Uyarı Sistemi</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-demo">
+                        <img src="eren-insan-test.gif" alt="Eren İnsan Tespiti Demo">
+                    </div>
+                    <h3>Personel Takip Sistemi</h3>
+                    <p>Çalışanların iş sahası içindeki hareketleri sürekli izleniyor; model kişi sayısı ve davranış kalıplarını analiz ederek güvenlik risklerini değerlendiriyor.</p>
+                    <div class="tech-features">
+                        <span>✓ Sürekli İzleme</span>
+                        <span>✓ Davranış Analizi</span>
+                        <span>✓ Risk Değerlendirme</span>
+                    </div>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-demo">
+                        <img src="2 işçi.png" alt="İşçi Güvenliği Analizi Demo">
+                    </div>
+                    <h3>İşçi Güvenliği Analizi</h3>
+                    <p>Çoklu işçi tespiti ve güvenlik protokolü uygulaması ile çalışma alanında bulunan personelin güvenlik durumu eş zamanlı izlenmektedir.</p>
+                    <div class="tech-features">
+                        <span>✓ Çoklu İşçi Tespiti</span>
+                        <span>✓ Güvenlik Protokolü</span>
+                        <span>✓ Eş Zamanlı İzleme</span>
+                    </div>
+                </div>
+                <div class="tech-card upcoming">
+                    <div class="tech-placeholder">
+                        <i class="fas fa-rocket"></i>
+                        <span>Planlanan</span>
+                    </div>
+                    <h3>Gelecek Sürüm</h3>
+                    <p>Önümüzdeki dönemde eklenecek yeni özellikler ve teknolojiler</p>
+                    <div class="tech-features">
+                        <span>✓ Blockchain Güvenliği</span>
+                        <span>✓ AR/VR Desteği</span>
+                        <span>✓ Bulut AI Servisleri</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">İnteraktif Dashboard</h2>
+                <p class="section-subtitle">Gerçek zamanlı monitöring ve kapsamlı raporlama sistemi</p>
+            </div>
+            <div class="dashboard-main">
+                <div class="dashboard-video">
+                    <div class="video-container">
+                        <img src="DASHBOARD-SON.gif" alt="Dashboard Demo" class="dashboard-gif">
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-features">
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h5>Gerçek Zamanlı Analiz</h5>
+                            <p>Güvenlik olaylarını anında izleyin ve proaktif önlemler alın</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h5>Akıllı Uyarı Sistemi</h5>
+                            <p>Risk durumlarında otomatik bildirim ve acil durum yönetimi</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h5>Detaylı Raporlama</h5>
+                            <p>Compliance raporları ve performans metrikleri</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h5>Mobil Uyumluluk</h5>
+                            <p>Sahada çalışanlar için mobil optimized arayüz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Plans Section -->
+    <section id="future-plans" class="future-plans">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Gelecekteki Geliştirmeler</h2>
+                <p class="section-subtitle">Sistemimizi daha kapsamlı ve güçlü hale getirecek planlanan yenilikler</p>
+            </div>
+            <div class="future-content">
+                <div class="future-grid">
+                    <div class="future-card">
+                        <div class="future-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <div class="future-text">
+                            <h4>Çok-Kamera ve Alan Korelasyonu</h4>
+                            <p>Birden fazla kameradan gelen görüntüler eş zamanlı olarak ilişkilendirilecek; aynı olay farklı açılardan bağlanıp bölge bazlı raporlar üretilecektir.</p>
+                        </div>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-icon">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <div class="future-text">
+                            <h4>Koruyucu Ekipman Kapsamı Genişletme</h4>
+                            <p>Baret ve yeleğin yanında iş pantolonu, iş ayakkabısı, eldiven gibi ek kişisel koruyucu ekipman sınıfları tespit edilecektir.</p>
+                        </div>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="future-text">
+                            <h4>Gelişmiş Bildirim Kanalları</h4>
+                            <p>Uyarılar e-posta, Slack, SMS veya kurum içi sistemlere (SCADA vb.) gönderilebilecek; gerektiğinde otomatik eskalasyon yapılabilecektir.</p>
+                        </div>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="future-text">
+                            <h4>Zaman Serisi Raporları</h4>
+                            <p>Uzun dönem trendleri, ekipman kullanım oranları ve olay sıklığını gösteren görselleştirmeler dashboard'ta yer alacaktır.</p>
+                        </div>
+                    </div>
+                    <div class="future-card">
+                        <div class="future-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="future-text">
+                            <h4>Mobil Erişim ve Saha Desteği</h4>
+                            <p>Güvenlik ekipleri anlık bildirimleri mobil cihazlardan alacak, olaylara hızlıca erişip onay/yorum bırakabilecektir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-timeline">
+                    <h3>Geliştirme Yol Haritası</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Q1 2025</div>
+                            <div class="timeline-content">
+                                <h4>Faz 1: Çok-Kamera Sistemi</h4>
+                                <p>Birden fazla kamera entegrasyonu ve alan korelasyonu geliştirmeleri</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Q2 2025</div>
+                            <div class="timeline-content">
+                                <h4>Faz 2: Ekipman Çeşitliliği</h4>
+                                <p>Ek koruyucu ekipman türleri için model eğitimi ve entegrasyonu</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Q3 2025</div>
+                            <div class="timeline-content">
+                                <h4>Faz 3: Gelişmiş Entegrasyonlar</h4>
+                                <p>Bildirim kanalları ve mobil uygulama geliştirmeleri</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Q4 2025</div>
+                            <div class="timeline-content">
+                                <h4>Faz 4: Analytics ve Raporlama</h4>
+                                <p>Zaman serisi analizleri ve ileri düzey raporlama sistemleri</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDG Section -->
+    <section id="sdg" class="sdg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sürdürülebilir Kalkınma Hedefleri</h2>
+                <p class="section-subtitle">Projemiz Birleşmiş Milletler Sürdürülebilir Kalkınma Hedefleri ile uyumlu olarak geliştirilmiştir</p>
+            </div>
+            <div class="sdg-content">
+                <div class="sdg-intro">
+                    <p class="sdg-description">
+                        İş sağlığı ve güvenliği projemiz, <strong>2030 Sürdürülebilir Kalkınma Gündemi</strong> kapsamında belirlenen 
+                        hedeflere katkıda bulunmaktadır. Teknoloji destekli çözümlerimizle çalışan refahını artırırken, 
+                        sürdürülebilir endüstriyel gelişimi destekliyoruz.
+                    </p>
+                </div>
+                <div class="sdg-grid">
+                    <div class="sdg-card primary">
+                        <div class="sdg-icon">
+                            <div class="sdg-number">3</div>
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="sdg-content-box">
+                            <div class="sdg-header">
+                                <h3>Sağlıklı Yaşam</h3>
+                                <div class="sdg-percentage">65%</div>
+                            </div>
+                            <h4>Her Yaştan İnsan İçin Refah</h4>
+                            <p>İş kazalarını önleyerek çalışanların sağlıklı ve güvenli çalışma ortamlarında bulunmalarını sağlıyoruz. 
+                            Gerçek zamanlı risk tespiti ile yaralanma ve ölüm oranlarını azaltıyoruz.</p>
+                            <div class="sdg-targets">
+                                <span>• Hedef 3.6: Trafik ve iş kazası ölümlerini azaltma</span>
+                                <span>• Hedef 3.9: Tehlikeli kimyasal ve kirletici madde kaynaklı hastalıkları azaltma</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sdg-card secondary">
+                        <div class="sdg-icon">
+                            <div class="sdg-number">8</div>
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="sdg-content-box">
+                            <div class="sdg-header">
+                                <h3>Düzgün İş ve Ekonomik Büyüme</h3>
+                                <div class="sdg-percentage">85%</div>
+                            </div>
+                            <h4>Herkes İçin Sürdürülebilir Ekonomik Büyüme</h4>
+                            <p>Güvenli çalışma ortamları oluşturarak üretkenliği artırıyor, işçi hakları ve güvenli çalışma koşullarını 
+                            destekliyoruz. AI teknolojisiyle iş güvenliği standartlarını yükseltiyoruz.</p>
+                            <div class="sdg-targets">
+                                <span>• Hedef 8.8: Tüm işçiler için güvenli çalışma ortamları</span>
+                                <span>• Hedef 8.2: Teknolojik gelişme yoluyla üretkenlik artışı</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sdg-card tertiary">
+                        <div class="sdg-icon">
+                            <div class="sdg-number">9</div>
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <div class="sdg-content-box">
+                            <div class="sdg-header">
+                                <h3>Sanayi, Yenilikçilik ve Altyapı</h3>
+                                <div class="sdg-percentage">75%</div>
+                            </div>
+                            <h4>Sürdürülebilir Sanayileşme ve Yenilikçilik</h4>
+                            <p>Yapay zeka ve bilgisayarlı görü teknolojileriyle endüstriyel altyapıyı modernize ediyoruz. 
+                            Akıllı fabrika konseptine katkıda bulunarak sürdürülebilir sanayileşmeyi destekliyoruz.</p>
+                            <div class="sdg-targets">
+                                <span>• Hedef 9.4: Temiz teknolojiler ve sürdürülebilir endüstriyel süreçler</span>
+                                <span>• Hedef 9.5: Bilimsel araştırma ve teknolojik kapasiteyi artırma</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sdg-card quaternary">
+                        <div class="sdg-icon">
+                            <div class="sdg-number">11</div>
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="sdg-content-box">
+                            <div class="sdg-header">
+                                <h3>Sürdürülebilir Şehirler ve Topluluklar</h3>
+                                <div class="sdg-percentage">45%</div>
+                            </div>
+                            <h4>Güvenli, Esnek ve Sürdürülebilir Şehirler</h4>
+                            <p>Endüstriyel alanların güvenliğini artırarak sürdürülebilir şehir gelişimine katkıda bulunuyoruz. 
+                            Akıllı şehir teknolojilerinin bir parçası olarak güvenli çalışma alanları oluşturuyoruz.</p>
+                            <div class="sdg-targets">
+                                <span>• Hedef 11.3: Sürdürülebilir şehirleşme ve katılımcı planlama</span>
+                                <span>• Hedef 11.5: Afet kaynaklı ölüm ve ekonomik kayıpları azaltma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sdg-impact">
+                    <h3>Proje Etkimiz</h3>
+                    <div class="impact-grid">
+                        <div class="impact-item">
+                            <div class="impact-number">%98</div>
+                            <p>İş kazası riskinde azalma</p>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-number">4</div>
+                            <p>SKH'ye doğrudan katkı</p>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-number">24/7</div>
+                            <p>Sürekli güvenlik monitörü</p>
+                        </div>
+                        <div class="impact-item">
+                            <div class="impact-number">2030</div>
+                            <p>Hedeflerine uyum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">İletişime Geçin</h2>
+                <p class="section-subtitle">Proje hakkında daha fazla bilgi almak için bizimle iletişime geçin</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h4>E-posta</h4>
+                    <p>xrlab@cbu.edu.tr</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h4>Telefon</h4>
+                    <p>+90 (212) 555 0123</p>
+                    <p>+90 (533) 555 0456</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h4>Sosyal Medya</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-shield-alt logo-icon"></i>
+                    <span class="logo-text">İSG Sistemi</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">Hakkımızda</a>
+                    <a href="#team">Ekip</a>
+                    <a href="#technologies">Teknolojiler</a>
+                    <a href="#future-plans">Gelecek Planları</a>
+                    <a href="#sdg">SKH</a>
+                    <a href="#contact">İletişim</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 İş Sağlığı ve Güvenliği Projesi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
