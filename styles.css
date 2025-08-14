@@ -1223,6 +1223,7 @@ body {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
+    position: relative;
 }
 
 .sdg-number {
@@ -1273,14 +1274,18 @@ body {
 }
 
 .sdg-percentage {
-    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.2rem;
     font-weight: 800;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 50px;
     color: var(--white);
-    min-width: 70px;
+    min-width: 50px;
     text-align: center;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-md);
+    transform: translate(50%, -50%);
 }
 
 .sdg-card.primary .sdg-percentage {
@@ -1695,9 +1700,10 @@ body {
     }
     
     .sdg-percentage {
-        font-size: 1.2rem;
-        padding: 0.4rem 0.8rem;
-        min-width: 60px;
+        font-size: 1rem;
+        padding: 0.3rem 0.6rem;
+        min-width: 45px;
+        transform: translate(30%, -30%);
     }
     
     .footer-content {
